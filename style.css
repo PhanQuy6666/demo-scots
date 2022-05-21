@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo-menu-mobile{
+    width: 390px;
+    height: 85px;
+    border: 1px solid;
+    margin: 0 auto;
+}
+.container{
+    width: 387px;
+    height: 70px;
+    border: 1px solid;
+    margin-top: 6px;
+    
+}
+.col-xs-1{
+    width: 135px;
+    height: 68px;
+    float: left;
+    border: 1px solid;
+    background-color: #fff;
+}
+.col-xs-1 img{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.col-xs-2{
+    width: 68px;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 19px;
+    float: left;
+}
+.language-vn{
+    width: 47%;
+    height: 100%;
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    background-color:bisque;
+    color: #fff;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.language-en{
+    width: 47%;
+    height: 100%;
+    border: 1px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    background-color:#fff;
+    color: #000;
+    float: right;
+}
+.col-xs-3{
+    width: 135px;
+    height: 40px;
+    border: 1px solid;
+    margin-top: 15px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    background-color: #3063bd;
+}
+.col-xs-4{
+    width: 38px;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 19px;
+    float: left;
+    font-size: 30px;
+    text-align: center;
+}
+.main{
+    width: 390px;
+    height: 450px;
+    border: 1px solid;
+    margin: 0 auto;
+    background-image: url(/image/backtoschool.jpg);
+    background-size: cover;
+    background-position: center;
+    animation-name: background;
+    animation-duration: 18s;
+    animation-iteration-count:infinite;
+    transition: 0.5s;
+}
+@keyframes background{
+    0%{background-image: url(/image/backtoschool.jpg);}
+    33%{ background-image: url(/image/lotrinhtronven.jpg);}
+    66%{background-image: url(/image/chaomuathicu.jpg);}
+    100%{background-image: url(/image/backtoschool.jpg);}
+}
+.top-content{
+    width: 390px;
+    height: 780px;
+    border: 1px solid;
+    margin: 0 auto;
+    background-color: #efefef;
+}
+.top-content-logo{
+    width: 180px;
+    height: 50px;
+    border: 1px solid;
+    margin: 0 auto;
+    background-image: url(/image/5sao.PNG);
+    background-size: cover;
+    background-position: center;
+}
+.top-content-text{
+    width: 280px;
+    height: 50px;
+    border: 1px solid;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.nav{
+    width: 390px;
+    height: 680px;
+    border: 1px solid;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 330px 330px;
+    grid-gap: 10px;
+    
+}
+.nav-img{
+    border: 1px solid;
+}
+.nav-img-img{
+    width: 99%;
+    height: 230px;
+    border: 1px solid;
+    background-image: url(/image/anhwweb-01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#elementary{
+    background-image: url(/image/anhwweb-02.jpg);
+}
+#high-school{
+    background-image: url(/image/anhwweb-03.jpg);
+}
+#test-ielts{
+    background-image: url(/image/luyen-thi-ielts.jpg);
+}
+.nav-img-text{
+    width: 96.3%;
+    height: 84px;
+    border: 1px solid;
+    padding-top: 10px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #3063bd;
+}
+.nav-img-text a{
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+.mid-content{
+    width: 390px;
+    height: 1350px;
+    border: 1px solid;
+    margin: 0 auto;
+    background-color: #27337e;
+}
+.mid-content-logo{
+    width: 180px;
+    height: 50px;
+    border: 1px solid;
+    margin: 0 auto;
+    background-image: url(/image/mid-content-logo.PNG);
+    background-size: cover;
+    background-position: center;
+}
+.mid-content-text-01{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0px;
+
+}
+.mid-content-background{
+    width: 98%;
+    height: 400px;
+    background-image: url(/image/untitled-1-min.png);
+    background-size: cover;
+    background-position: center;
+}
+.mid-content nav {
+    color: #fff;
+    font-size: 19px;
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.row{
+    width: 99.9%;
+    height: 300px;
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 140px 140px;
+}
+.row-1{
+    border: 1px solid;
+    text-align: center;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.teacher {
+    width: 390px;
+    height: 240px;
+    margin: 0 auto;
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    background-color: antiquewhite;
+    background-color: #27337e;  
+}
+.teacher-1{
+    border: 1px solid;
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.teacher-img{
+    width: 100%;
+    height: 140px;
+    border: 1px solid;
+    
+}
